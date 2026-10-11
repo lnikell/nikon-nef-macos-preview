@@ -1,0 +1,45 @@
+# Generated binaries, caches, test images, and local packages
+/build/
+/dist/
+/.build/
+/DerivedData/
+*.app/
+*.appex/
+*.zip
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+.DS_Store
+._*
+xcuserdata/
+*.xcuserstate
+.idea/
+.vscode/
+
+# Local credentials and signing material are never needed for this build.
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# Keep photographs and extracted previews private. Tests generate their fixtures.
+*.[nN][eE][fF]
+*.[nN][rR][wW]
+*.[dD][nN][gG]
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[pP][nN][gG]
+*.[hH][eE][iI][cC]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+/Tests/Fixtures/private/
